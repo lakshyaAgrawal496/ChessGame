@@ -66,16 +66,6 @@ io.on("connection", function(uniquesocket){
             uniquesocket.emit("invalid move: ",move);
         }
     });
-
-    // uniquesocket.on("churan", function(){
-    //     // console.log("churan received") // backe-end pe churan receive hua
-    //     io.emit("churan papdi") // sbko jayega , backe-end se front-end pe churan papdi bhejo
-    // })
-    /*socket.emit()=> Particular ek bande ko show hoga
-    io.emit()=> sbko hoga*/
-    // uniquesocket.on("disconnect",function(){
-    //     console.log("disconnected");
-    // })
 });
 
 
